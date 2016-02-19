@@ -64,6 +64,9 @@ builder.prototype.writePackage = function (callback) {
         "version": this.version || pack.version,
         "description": this.description || pack.description,
         "main": "index.js",
+        "dependencies": {
+            "q":"latest"
+        },
         "scripts": {
             "test": "echo \"Error: no test specified\" && exit 1"
         },
@@ -103,5 +106,5 @@ builder.prototype.publish = function (callback) {
             return callback(null, {published: true})
         }
     });
-}
+};
 module.exports = builder;

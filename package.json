@@ -1,6 +1,6 @@
 {
   "name": "predeploy-builder",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a builder used to generate api at apiary and update client lib on npm",
   "main": "index.js",
   "scripts": {

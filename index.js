@@ -65,7 +65,8 @@ builder.prototype.writePackage = function (callback) {
         "description": this.description || pack.description,
         "main": "index.js",
         "dependencies": {
-            "q":"latest"
+            "q":"latest",
+            "request":"latest"
         },
         "scripts": {
             "test": "echo \"Error: no test specified\" && exit 1"
